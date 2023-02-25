@@ -3,6 +3,8 @@ utils contains utilities for the sign_printer app.
 """
 import random
 
+USAGE = "Usage: python sign_printer <text>"
+
 
 FONTS = [
    "1943____",
@@ -67,6 +69,14 @@ FONTS = [
    "zig_zag_",
 ]
 
+
 def random_font():
    """Returns a random pyfiglet font."""
    return random.choice(FONTS)
+
+
+def validate_args(args):
+   """Validates the arguments passed from the command-line."""
+   if len(args) > 1:
+      return True
+   return False
