@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sign-printer"
+version = "0.1.0"
+description = "Sign printer app"
+authors = ["Lee Gaines <lee.gaines@autodesk.com>"]
+readme = "README.md"
+packages = [{include = "sign_printer"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^7.2.1"
+flake8 = "^6.0.0"
+black = "^23.1.0"
+pyfiglet = "^0.8.post1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
