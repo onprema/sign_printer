@@ -12,5 +12,4 @@ Branch | Description
 `v4` | Virtualenv is use
 `v5` | Poetry replaces virtualenv
 `v6` | Automation tools are added
-`v7` | The app gets containerized
-`v8` | Final product
+`v7` | Docker is introduced
