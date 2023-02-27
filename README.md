@@ -55,3 +55,15 @@ poetry run python sign_printer/sign_printer.py <text>
 ```
 curl -sSL https://install.python-poetry.org | python3 - --uninstall
 ```
+
+## `pre-commit`
+
+Install hooks:
+```
+poetry run pre-commit install
+```
+
+Update hooks:
+```
+poetry run pre-commit autoupdate
+```
