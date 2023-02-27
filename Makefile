@@ -9,3 +9,9 @@ format:
 
 clean:
 	find . -type d -name '__pycache__' -exec rm -rf {} +
+
+build:
+	docker build --tag sign_printer .
+
+run:
+	docker run sign_printer $(text)
