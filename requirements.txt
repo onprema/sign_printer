@@ -1,2 +1,4 @@
 pyfiglet==0.7.5
 pytest==7.2.1
+black==23.3.0
+flake8==6.0.0

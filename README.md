@@ -59,3 +59,28 @@ To format the code, run the following command:
 ```
 black sign_printer
 ```
+
+## Virtual Environment
+To create a virtual environment, run the following command:
+
+```
+python -m venv sign_printer_venv
+```
+
+To activate the virtual environment, run the following command:
+
+```
+source sign_printer_venv/bin/activate
+```
+
+To install the app's dependencies, run the following command:
+
+```
+pip install -r requirements.txt
+```
+
+To exit the virtual environment, run the following command:
+
+```
+deactivate
+```
