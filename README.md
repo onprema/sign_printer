@@ -121,3 +121,10 @@ poetry run python sign_printer/sign_printer.py <text>
 ```
 curl -sSL https://install.python-poetry.org | python3 - --uninstall
 ```
+
+## pre-commit
+
+### Installation
+```
+curl http://pre-commit.com/install-local.py | python3 - install 
+```
