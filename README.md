@@ -125,6 +125,7 @@ curl -sSL https://install.python-poetry.org | python3 - --uninstall
 ## pre-commit
 
 ### Installation
+To install the pre-commit hook, run the following command:
 ```
-curl http://pre-commit.com/install-local.py | python3 - install
+poetry run pre-commit install
 ```
