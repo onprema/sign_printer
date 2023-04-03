@@ -45,3 +45,17 @@ To lint the code, run the following command:
 ```
 flake8
 ```
+
+# Formatting
+
+This app uses `black` for code linting. To install `black`, run the following command:
+
+```
+pip install black
+```
+
+To lint the code, run the following command:
+
+```
+black sign_printer
+```
