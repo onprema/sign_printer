@@ -3,67 +3,43 @@
 This is a simple Python command-line application that uses the `pyfiglet` library to generate ASCII art from the text entered by the user.
 
 ## Prerequisites
-To run this application, you need to have Python 3.x and the pyfiglet library installed on your system.
-
-You can install `pyfiglet` library via `pip, by running the following command in your terminal:
-
-```
-pip install pyfiglet
-```
+To run this application, you need to have Docker installed on your system.
 
 ## Usage
-To use this app, navigate to the directory where the `app.py` file is located and run the following command in your terminal:
+Run the following command in your terminal:
 
 ```
-python figlet_app.py <text>
+make run text=<text>
 ```
 Replace `<text>` with the text for which you want to print.
 
-## `poetry`
+## Tests
+The unit tests for the sign_printer app require `pytest`, which can be installed with `pip`:
+
+```
+make test
+```
+
+## Linting
+
+To lint the code, run the following command:
+
+```
+make lint
+```
+
+## Formatting
+
+To format the code, run the following command:
+
+```
+make format
+```
+
+## pre-commit
 
 ### Installation
-```
-curl -sSL https://install.python-poetry.org | python3 -
-```
-
-### Initialize
-```
-poetry init
-```
-
-### Install dependencies
-```
-poetry install
-```
-
-### Activate virtual environment
-```
-poetry shell
-```
-
-### Deactivate virtual environment
-```
-exit
-```
-
-### Run the app
-```
-poetry run python sign_printer/sign_printer.py <text>
-```
-
-### Uninstall
-```
-curl -sSL https://install.python-poetry.org | python3 - --uninstall
-```
-
-## `pre-commit`
-
-Install hooks:
+To enable the pre-commit hook, run the following command:
 ```
 poetry run pre-commit install
-```
-
-Update hooks:
-```
-poetry run pre-commit autoupdate
 ```
