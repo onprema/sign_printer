@@ -126,5 +126,5 @@ curl -sSL https://install.python-poetry.org | python3 - --uninstall
 
 ### Installation
 ```
-curl http://pre-commit.com/install-local.py | python3 - install 
+curl http://pre-commit.com/install-local.py | python3 - install
 ```
