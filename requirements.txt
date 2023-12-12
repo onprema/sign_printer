@@ -1,2 +1,0 @@
-pyfiglet==0.7.5
-pytest==7.2.1
