@@ -89,6 +89,10 @@ deactivate
 
 ### Installation
 ```
+# macOS
+brew install poetry
+
+# Linux / Windows
 curl -sSL https://install.python-poetry.org | python3 -
 ```
 
@@ -117,7 +121,21 @@ exit
 poetry run python sign_printer/sign_printer.py <text>
 ```
 
+### Run the app
+```
+poetry run python sign_printer/sign_printer.py <text>
+```
+
+### Add a package
+```
+poetry add pyfiglet
+```
+
 ### Uninstall
 ```
+# macOS
+brew uninstall poetry
+
+# Linux / Windows
 curl -sSL https://install.python-poetry.org | python3 - --uninstall
 ```
