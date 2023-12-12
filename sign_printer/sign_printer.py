@@ -4,7 +4,7 @@ Module sign_printer contains the sign_printer app.
 """
 import sys
 import utils
-from pyfiglet import Figlet
+from pyfiglet import Figle
 
 
 def main():
