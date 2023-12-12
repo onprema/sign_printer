@@ -45,6 +45,15 @@ make format
 ## pre-commit
 
 ### Installation
+
+```
+# pip
+pip install pre-commit
+
+# brew
+brew install pre-commit
+```
+
 To enable the pre-commit hook, run the following command:
 ```
 poetry run pre-commit install
