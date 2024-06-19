@@ -9,9 +9,10 @@ format:
 
 clean:
 	find . -type d -name '__pycache__' -exec rm -rf {} +
+	find . -type d -name '.pytest_cache' -exec rm -rf {} +
 
 build:
 	docker build --tag sign_printer .
 
-run:
+run: build
 	docker run sign_printer $(text)
