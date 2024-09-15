@@ -1,10 +1,14 @@
-test:
+poetry-setup:
+	python -m pip install poetry
+	poetry install
+
+test: poetry-setup
 	poetry run pytest --verbose tests/
 
-lint:
+lint: poetry-setup
 	poetry run flake8 --show-source
 
-format:
+format: poetry-setup
 	poetry run black --diff .
 
 clean:
