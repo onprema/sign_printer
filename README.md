@@ -13,3 +13,4 @@ Branch | Description
 `v5` | Poetry replaces virtualenv
 `v6` | Automation tools are added
 `v7` | Docker is introduced
+`whl` | Information about building a whl file for package distribution
