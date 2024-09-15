@@ -8,12 +8,18 @@ To run this application, you need to have Python 3.x and `poetry` installed on y
 You can install `poetry` by running the following command in your terminal:
 
 ```
-curl -sSL https://install.python-poetry.org | python3 -
+python -m pip install poetry
 ```
 
 ## Usage
-To use this app, navigate to the directory where the `app.py` file is located and run the following command in your terminal:
+Run the following command in your terminal:
 
+```
+poetry install
+make example
+```
+
+To print custom text, run
 ```
 poetry run python sign_printer/sign_printer.py <text>
 ```
@@ -45,14 +51,6 @@ make format
 ## pre-commit
 
 ### Installation
-
-```
-# pip
-pip install pre-commit
-
-# brew
-brew install pre-commit
-```
 
 To enable the pre-commit hook, run the following command:
 ```
