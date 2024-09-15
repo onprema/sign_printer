@@ -1,6 +1,7 @@
 poetry-setup:
 	python -m pip install poetry
 	poetry install
+	poetry run pre-commit install
 
 test: poetry-setup
 	poetry run pytest --verbose tests/
