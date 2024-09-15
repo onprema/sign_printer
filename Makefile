@@ -1,3 +1,6 @@
+example:
+	@poetry run python sign_printer/sign_printer.py hello
+
 test:
 	poetry run pytest --verbose tests/
 
